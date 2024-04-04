@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="home-page.css" />
+    <title>The Carnivore's Shifts</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>The Carnivores</h1>
+    </header>
+    <nav>
+      <button onclick="showShifts()">Shifts</button>
+      <button onclick="editProfile()">Editing a profile</button>
+      <button onclick="addShift()">Adding a shift</button>
+      <button onclick="showFilterOptions()">Filter Options</button>
+      <span style="float: right;">Hello - <span id="userName"></span> <button onclick="logout()">Log out</button></span>
+    </nav>
+  
+    <div class="content" id="content">
+   
+    </div>
+    
+    
+    <script src="home-page.js"></script>
+ </body>
+</html>
